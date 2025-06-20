@@ -1,7 +1,7 @@
 C++ = c++
 C++_FLAGS = -Wall -Wextra -Werror -std=c++98
 
-INFILES = main.cpp
+INFILES = main.cpp Span.cpp
 OBJFILES = $(INFILES:.cpp=.o)
 
 NAME = test
